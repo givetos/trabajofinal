@@ -1,0 +1,90 @@
+/* globales */
+@import url(`https://fonts.googleapis.com/css2?family:Monserrat&display=swap`);
+
+body{
+    font-family: "Monserrat" sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(red, orange, yellow);
+}
+
+header{
+    background-color:black;
+}
+
+/* menu */
+
+nav{
+    background-color: lightsalmon;
+}
+
+#menu li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+#menu form button{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+/* cuerpo */
+.carousel-inner{
+    
+    height: 100;
+}
+
+
+
+/* pie de pagina */
+footer{
+    background-color: black;
+    min-height: 100px;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+
+#iconos{
+    text-align: right;
+}
+
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: white;
+    
+    
+}
+
+                                /*  contacto */
+
+/* cuerpo de contacto */
+
+#contenedor-formulario{
+ 
+    background: white;
+    border-radius: 5px;
+    max-width: 500px;
+
+
+}
+#titulo-formulario{
+    color: black;
+}
+
+  
+
+
+
+/* media queries */
+@media  (max-width:768px){
+    #texto #equipo #desarrollo {
+        width: 90% !important;
+    }
+    
+}
+
+
+
